@@ -4,6 +4,7 @@ def turn_count(board)
     space = "X" || space = "O"
     count += 1
   end
+  return count
 end
 
 def current_player
